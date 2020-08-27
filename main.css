@@ -1,0 +1,75 @@
+
+body{
+  padding-left: 40px;
+}
+
+#scrollbar {
+  height: 300px;
+  width: 300px;
+  overflow-y: hidden;
+  position: relative;
+  margin-right: 17px;
+  padding-right: 20px;
+  
+}
+
+#scroll {
+  position: absolute;
+  top: 0px;
+  bottom: 17px;
+  right: 0;
+  width: 17px;
+  height: 100%;
+  background-color: #eee;
+  
+}
+
+#thumb {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 17px;
+  height: 10px;
+  background-color: #aaa;
+  margin-top: 17px;
+  
+}
+#thumb:hover,
+#thumb:active {
+  background-color: #333;
+}
+
+#thumb-button1 {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 17px;
+  height: 17px;
+  background-color: #333;
+}
+#thumb-button1:hover,
+#thumb-button1:active {
+  background-color: #aaa;
+}
+#thumb-button2 {
+  position: absolute;
+  top: 283px;
+  right: 0;
+  width: 17px;
+  height: 17px;
+  background-color: #333;
+}
+#thumb-button2:hover,
+#thumb-button2:active {
+  background-color: #aaa;
+}
+
+
+p {
+  margin: 0;
+}
+
+h3 {
+  padding-top: 40px;
+}
